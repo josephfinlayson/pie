@@ -1,5 +1,5 @@
 $(window).resize(function(){
-
+'use strict';
     $('.pie').css({
         position:'absolute',
         left: ($(window).width() - $('.pie').outerWidth())/2,
